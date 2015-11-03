@@ -1,0 +1,21 @@
+{
+    "version": "1.6.2",
+    "command": "tsc",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "tmp/"
+    },
+    "filesGlob": [
+        "app/**/*.ts"
+    ],
+    "files": [
+        "app/src/app.ts"
+    ]
+}

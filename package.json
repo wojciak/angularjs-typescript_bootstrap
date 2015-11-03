@@ -1,0 +1,31 @@
+{
+  "name": "angularjs-typescript_bootstrap",
+  "version": "0.0.0",
+  "description": "AngularJS Typescript Bootstrap",
+  "author": "Lukasz Wojciak <kontakt@wojciak.com.pl>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wojciak/angularjs-typescript_bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wojciak/angularjs-typescript_bootstrap/issues"
+  },
+  "keywords": [
+    "angularjs",
+    "typescript"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.5.0-beta.0",
+    "browserify": "^12.0.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-ts": "^5.1.0",
+    "grunt-tsd": "^0.1.0",
+    "tsd": "^0.6.5",
+    "typescript": "^1.6.2"
+  },
+  "license": "MIT"
+}
