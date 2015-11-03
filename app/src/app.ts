@@ -27,7 +27,7 @@ class App {
     }
 
     loadControllers() {
-        this.module.controller('AppController', function ApPController() {
+        this.module.controller('AppController', function AppController() {
             console.log('controller');
         });
     }
