@@ -13,9 +13,11 @@
         "outDir": "tmp/"
     },
     "filesGlob": [
+        "typings/tsd.d.ts",
         "app/**/*.ts"
     ],
     "files": [
+        "typings/tsd.d.ts",
         "app/src/app.ts"
     ]
 }
