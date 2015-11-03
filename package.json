@@ -15,7 +15,7 @@
     "typescript"
   ],
   "scripts": {
-    "preversion": "grunt tsd",
+    "pretest": "grunt tsd",
     "version": "grunt && git add .",
     "postversion": "git push && git push --tags"
   },
