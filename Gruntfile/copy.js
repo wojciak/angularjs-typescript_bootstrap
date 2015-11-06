@@ -7,7 +7,8 @@ function copy() {
         copy: {
             app: {
                 files: [
-                    {expand: true, cwd: 'app/static', src: ['**/*.*'], dest: 'build/'}
+                    {expand: true, cwd: 'app/static', src: ['**/*.*'], dest: 'build/'},
+                    {expand: true, cwd: 'app/src', src: ['components/**/*.html'], dest: 'build/'}
                 ]
             }
         }

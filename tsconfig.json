@@ -18,6 +18,7 @@
     ],
     "files": [
         "typings/tsd.d.ts",
-        "app/src/app.ts"
+        "app/src/app.ts",
+        "app/src/components/home/home.ts"
     ]
 }
