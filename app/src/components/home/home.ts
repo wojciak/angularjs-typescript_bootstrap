@@ -1,36 +1,5 @@
-var angular = require('angular'),
-    ngNewRouter = require('angular-new-router');
-
-class Home {
-    module:angular.IModule;
-
-    constructor() {
-        this.createModule();
-        this.loadConfiguration();
-        this.loadRuntime();
-        this.loadControllers();
-    };
-
-    createModule() {
-        this.module = angular.module('app.home', ['ngNewRouter']);
-    }
-
-    loadRuntime() {
-        this.module.run(() => {
-            console.log('run home');
-        });
-    }
-
-    loadConfiguration() {
-        this.module.config(() => {
-            console.log('config home');
-        });
-    }
-
-    loadControllers() {
-        this.module.controller('HomeController', HomeController);
-    }
-}
+/*Core*/
+import {Module} from '../../core/Module';
 
 class HomeController {
     static $inject = ['$router'];
@@ -38,6 +7,12 @@ class HomeController {
     constructor($router:any) {
         $router.config([]);
     }
+}
+
+class Home extends Module {
+    constructor() {
+        super('app.home', ['ngNewRouter'], HomeController);
+    };
 }
 
 var home = new Home();

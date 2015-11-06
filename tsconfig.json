@@ -19,6 +19,8 @@
     "files": [
         "typings/tsd.d.ts",
         "app/src/app.ts",
-        "app/src/components/home/home.ts"
+        "app/src/components/home/home.ts",
+        "app/src/core/Module.ts",
+        "app/src/core/vendor.ts"
     ]
 }
