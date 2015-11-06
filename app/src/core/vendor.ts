@@ -1,6 +1,5 @@
 var vendor = [
-    require('angular'),
-    require('angular-new-router')
+    require('angular')
 ];
 
 export {vendor};

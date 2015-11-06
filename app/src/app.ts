@@ -1,31 +1,25 @@
 /*Core*/
 import {vendor} from './core/vendor';
 import {Module} from './core/Module';
+import {Component} from './core/Component';
+
+/*Enums*/
+import {Components} from './Components';
+import {Modules} from './Modules';
 
 /*Components*/
-import {home} from './components/home/home';
+import {sampleComponent} from './components/sampleComponent/sampleComponent';
 
 class AppController {
-    static $inject = ['$router'];
-
-    constructor($router:any) {
-        $router.config([
-            {
-                path: '/',
-                components: {
-                    main: 'home'
-                }
-            }
-        ]);
-    }
+    static $inject:string[] = [];
 }
 
 class App extends Module {
     constructor() {
-        super('app', ['ngNewRouter', 'app.home'], AppController);
+        super(Modules[Modules.app], [], AppController);
     }
 }
 
 var app = new App();
 
-export {app};
+export {app}

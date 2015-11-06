@@ -18,8 +18,13 @@
     ],
     "files": [
         "typings/tsd.d.ts",
+        "app/src/Components.ts",
+        "app/src/Modules.ts",
         "app/src/app.ts",
-        "app/src/components/home/home.ts",
+        "app/src/components/sampleComponent/SampleComponentController.ts",
+        "app/src/components/sampleComponent/sampleComponent.ts",
+        "app/src/components/sampleComponent/sampleComponentTemplate.ts",
+        "app/src/core/Component.ts",
         "app/src/core/Module.ts",
         "app/src/core/vendor.ts"
     ]
