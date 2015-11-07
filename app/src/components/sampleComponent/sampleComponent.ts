@@ -9,10 +9,9 @@ import {Modules} from '../../Modules';
 import {SampleComponentController} from './SampleComponentController';
 
 /*Templates*/
-import {sampleComponentTemplate} from './sampleComponentTemplate';
 
 class SampleComponent extends Component {
-    template = sampleComponentTemplate;
+    template = 'components/sampleComponent/sampleComponentTemplate.html';
     bindings = {};
 
     constructor() {

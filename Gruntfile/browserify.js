@@ -1,4 +1,4 @@
-var grunt = require('grunt');
+var grunt = require('grunt')
 
 function browserify() {
     grunt.loadNpmTasks('grunt-browserify');
@@ -9,6 +9,8 @@ function browserify() {
                 files: {
                     'build/app/app.js': ['tmp/**/*.js']
                 }
+            }, options: {
+                transform: ['stringify']
             }
         }
     }

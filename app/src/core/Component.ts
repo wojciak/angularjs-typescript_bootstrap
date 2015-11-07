@@ -14,7 +14,7 @@ class Component {
             .module(module)
             .directive(component, () => {
                 return {
-                    template: this.template,
+                    templateUrl: this.template,
                     controller: Controller,
                     controllerAs: component,
                     scope: {},
