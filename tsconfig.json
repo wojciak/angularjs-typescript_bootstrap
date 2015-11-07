@@ -26,6 +26,7 @@
         "app/src/components/sampleComponent/sampleComponentTemplate.ts",
         "app/src/core/Component.ts",
         "app/src/core/Module.ts",
-        "app/src/core/vendor.ts"
+        "app/src/core/vendor.ts",
+        "app/src/routes/root/root.ts"
     ]
 }

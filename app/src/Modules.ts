@@ -1,6 +1,6 @@
 enum Modules {
     app,
-    appHome
+    appRouteRoot
 }
 
 export {Modules}

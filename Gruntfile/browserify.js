@@ -9,8 +9,6 @@ function browserify() {
                 files: {
                     'build/app/app.js': ['tmp/**/*.js']
                 }
-            }, options: {
-                transform: ['stringify']
             }
         }
     }

@@ -10,10 +10,10 @@ class Module {
         this.loadControllers(Controller);
     };
 
-    runtime() {
+    runtime(...args: any[]) {
     }
 
-    configuration() {
+    configuration(...args: any[]) {
     }
 
     createModule(name:string, dependencies:string[]) {
